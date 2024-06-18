@@ -12,7 +12,7 @@ import java.sql.*;
  * @author DANIEL
  */
 public final class DBConn {
-    private static final String SQLITE_DB_PATH = "uas.db";
+    private static final String SQLITE_DB_PATH = "db/uas.db";
 
     static {
         try {

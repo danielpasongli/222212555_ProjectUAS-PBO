@@ -252,14 +252,16 @@ public class Database implements Serializable {
         }
     }
     
-    // Memperbarui password pengguna di database
     public boolean updatePassword(String username, String newPassword) {
         String sql = "UPDATE users SET password = ? WHERE username = ?";
+
+        // Menggunakan BCrypt untuk meng-hash kata sandi baru
+        String hashedPassword = BCrypt.hashpw(newPassword, BCrypt.gensalt());
 
         // Menggunakan try-with-resources untuk menangani koneksi dan statement
         try (Connection conn = DBConn.getConnection();
              PreparedStatement pstmt = conn.prepareStatement(sql)) {
-            pstmt.setString(1, newPassword);
+            pstmt.setString(1, hashedPassword);
             pstmt.setString(2, username);
             return pstmt.executeUpdate() > 0;
         } catch (SQLException e) {
