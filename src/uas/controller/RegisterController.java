@@ -41,6 +41,25 @@ public class RegisterController implements ActionListener {
             return;
         }
 
+        // Validasi fullname tidak boleh mengandung angka
+        if (fullName.matches(".*\\d.*")) {
+            JOptionPane.showMessageDialog(null, "Fullname tidak boleh mengandung angka", "Error", JOptionPane.ERROR_MESSAGE);
+            return;
+        }
+
+        // Validasi NIP harus berupa angka
+        if (!nip.matches("\\d+")) {
+            JOptionPane.showMessageDialog(null, "NIP harus berupa angka", "Error", JOptionPane.ERROR_MESSAGE);
+            return;
+        }
+
+        // Validasi fullname tidak boleh mengandung simbol khusus
+
+        if (!fullName.matches("[a-zA-Z\\s]+")) {
+            JOptionPane.showMessageDialog(null, "Fullname tidak boleh mengandung simbol khusus", "Error", JOptionPane.ERROR_MESSAGE);
+            return;
+        }
+
         // Masukkan data ke database menggunakan metode registerUser
         Database dbInstance = Database.getInstance();
         boolean registered = dbInstance.registerUser(username, password, nip, fullName);

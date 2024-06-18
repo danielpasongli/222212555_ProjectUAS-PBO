@@ -22,7 +22,7 @@ public class DataPengaduan extends javax.swing.JPanel {
     }
     
     private void addListeners(Dashboard dashboard) {
-        controller = new DataPengaduanController(this.belumTable, this.sedangTable, this.telahTable, this.searchBelumTextField, this.searchSedangTextField, this.searchTelahTextField, this.detailButton, this.deleteButton, this.exportButton, dashboard); // Initialize controller to load data
+        controller = new DataPengaduanController(this.belumTable, this.sedangTable, this.telahTable, this.searchBelumTextField, this.searchSedangTextField, this.searchTelahTextField, this.detailButton, this.deleteButton, this.jButton1, dashboard); // Initialize controller to load data
     }
 
     /**
@@ -52,7 +52,7 @@ public class DataPengaduan extends javax.swing.JPanel {
         searchTelahTextField = new javax.swing.JTextField();
         detailButton = new javax.swing.JButton();
         deleteButton = new javax.swing.JButton();
-        exportButton = new javax.swing.JButton();
+        jButton1 = new javax.swing.JButton();
 
         setMaximumSize(new java.awt.Dimension(1040, 720));
         setMinimumSize(new java.awt.Dimension(1040, 720));
@@ -140,7 +140,7 @@ public class DataPengaduan extends javax.swing.JPanel {
 
         deleteButton.setText("Delete");
 
-        exportButton.setText("Export (.csv)");
+        jButton1.setText("Export (.xsls)");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -150,7 +150,7 @@ public class DataPengaduan extends javax.swing.JPanel {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(layout.createSequentialGroup()
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(exportButton)
+                        .addComponent(jButton1)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(detailButton)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -215,17 +215,16 @@ public class DataPengaduan extends javax.swing.JPanel {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(detailButton)
                     .addComponent(deleteButton)
-                    .addComponent(exportButton))
+                    .addComponent(jButton1))
                 .addContainerGap(35, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
-
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTable belumTable;
     private javax.swing.JButton deleteButton;
     private javax.swing.JButton detailButton;
-    private javax.swing.JButton exportButton;
+    private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
