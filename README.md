@@ -1,4 +1,4 @@
-# Sistem Pengaduan Kerusakan Barang
+# Sistem Informasi Pelaporan Kerusakan (SI-PELAKU)
 
 ## Deskripsi
 Sistem Pengaduan Kerusakan Barang adalah aplikasi berbasis Java yang memungkinkan pengguna untuk melaporkan kerusakan barang. Aplikasi ini menggunakan database SQLite untuk menyimpan data pengguna dan pengaduan kerusakan.
