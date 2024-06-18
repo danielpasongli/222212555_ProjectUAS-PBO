@@ -17,8 +17,8 @@ SI-PELAKU adalah aplikasi berbasis Java yang memungkinkan siapapun untuk melapor
 
 ## Penggunaan
 ### Umum
-- Home: Untuk mengecek pengaduan yang pernah dikirimkan.
-- Form Pengaduan: Untuk melaporkan/mengirimkan pengaduan.
+- Home: Untuk mengecek laporan yang pernah dikirimkan berdasarkan nomor laporan.
+- Form Pengaduan: Untuk melaporkan kerusakan yang terjadi.
 ### Admin
 1. Registrasi: Buka aplikasi dan pilih opsi untuk mendaftar. Isi formulir registrasi dengan nama pengguna, NIP, dan kata sandi.
 2. Login: Masukkan nama pengguna dan kata sandi Anda, kemudian klik tombol login.
