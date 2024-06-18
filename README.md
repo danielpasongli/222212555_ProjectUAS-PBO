@@ -1,14 +1,14 @@
 # Sistem Informasi Pelaporan Kerusakan (SI-PELAKU)
 
 ## Deskripsi
-Sistem Pengaduan Kerusakan Barang adalah aplikasi berbasis Java yang memungkinkan pengguna untuk melaporkan kerusakan barang. Aplikasi ini menggunakan database SQLite untuk menyimpan data pengguna dan pengaduan kerusakan.
+SI-PELAKU adalah aplikasi berbasis Java yang memungkinkan siapapun untuk melaporkan kerusakan barang. Atas petunjuk dosen aplikasi ini menggunakan database SQLite untuk menyimpan data pengguna dan pengaduan kerusakan.
 
 ## Fitur
-- Registrasi Pengguna: Pengguna dapat mendaftar dengan nama pengguna, NIP, dan kata sandi.
-- Login: Pengguna dapat login dengan nama pengguna dan kata sandi.
-- Pengaduan Kerusakan: Pengguna dapat mengirim laporan pengaduan kerusakan barang.
-- Profil Akun: Pengguna dapat melihat dan memperbarui informasi akun mereka.
-- Dashboard: Tampilan utama setelah login, menampilkan berbagai fitur aplikasi.
+- Registrasi Admin: Seseorang pegawai dapat mendaftar dengan nama pengguna, NIP, dan kata sandi.
+- Login: Admin dapat login dengan nama pengguna dan kata sandi.
+- Pelaporan Kerusakan: Siapapun dapat mengirim laporan pelaporan kerusakan barang.
+- Profil Akun: Admin dapat melihat dan memperbarui password akun mereka.
+- Dashboard: Tampilan utama setelah login, menampilkan fitur Data Pengaduan (daftar semua laporan yang masuk) dan Profil Akun (melihat informasi akun).
 
 ## Prasyarat
 - Java Development Kit (JDK) versi 8 atau lebih baru
