@@ -19,7 +19,6 @@ Sistem Pengaduan Kerusakan Barang adalah aplikasi berbasis Java yang memungkinka
 ### Umum
 - Home: Untuk mengecek pengaduan yang pernah dikirimkan.
 - Form Pengaduan: Untuk melaporkan/mengirimkan pengaduan.
-
 ### Admin
 1. Registrasi: Buka aplikasi dan pilih opsi untuk mendaftar. Isi formulir registrasi dengan nama pengguna, NIP, dan kata sandi.
 2. Login: Masukkan nama pengguna dan kata sandi Anda, kemudian klik tombol login.
