@@ -15,13 +15,11 @@ Sistem Pengaduan Kerusakan Barang adalah aplikasi berbasis Java yang memungkinka
 - Maven (jika menggunakan Maven untuk manajemen dependensi)
 - SQLite JDBC Driver (sudah disertakan dalam proyek)
 
-##Penggunaan
-
+## Penggunaan
 ### Umum
-### Admin
+- Home: Setelah login, pilih opsi untuk mengirim pengaduan. Isi formulir pengaduan dan kirimkan.
 
+### Admin
 1. Registrasi: Buka aplikasi dan pilih opsi untuk mendaftar. Isi formulir registrasi dengan nama pengguna, NIP, dan kata sandi.
 2. Login: Masukkan nama pengguna dan kata sandi Anda, kemudian klik tombol login.
-3. Pengaduan: Setelah login, pilih opsi untuk mengirim pengaduan. Isi formulir pengaduan dan kirimkan.
-4. Profil Akun: Lihat dan perbarui informasi akun Anda di halaman profil akun.
-5. Dashboard: Gunakan dashboard untuk mengakses fitur-fitur aplikasi lainnya.
+3. Dashboard: Gunakan dashboard untuk mengakses fitur-fitur aplikasi lainnya.
